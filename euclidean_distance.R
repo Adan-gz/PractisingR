@@ -18,3 +18,6 @@ dist_euclidean <- function(df,scale=TRUE){
 data_dist <- dist_euclidean(rbind(mtcars,rep(NA,ncol(mtcars))))
 
 #### AND APPLYING NOW THE KMEANS ALGORITHM?
+kmeans_cluster <- function(dist){
+  
+}
